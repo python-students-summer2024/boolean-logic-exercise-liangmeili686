@@ -81,11 +81,8 @@ def is_typical_new_york_summer():
     # write your code for this function below this line.
     over_90 = is_sweltering() 
     humid = is_humid()
-    if over_90 == True:
-      if humid == True:
+    if over_90 and humid:
           return True
-      else:
-         return False
     else:
        return False
     
