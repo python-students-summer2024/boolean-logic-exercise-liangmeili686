@@ -2,13 +2,13 @@ from solutions import *
 
 
 def main():
-    # call the is_sweltering() function and output a response
+    #call the is_sweltering() function and output a response
     if is_sweltering():
         print("Oh no, it is sweltering hot today!")
     else:
         print("Thankfully, it's not too hot today.")
 
-    # call the is_warm() function and output a response
+    #call the is_warm() function and output a response
     if is_warm():
         print("Ok... I suppose warm is ok!")
     else:
